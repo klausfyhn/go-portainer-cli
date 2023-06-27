@@ -23,7 +23,7 @@ require (
 	github.com/opencontainers/image-spec v1.1.0-rc2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/portainer/portainer/api v0.0.0-20230622214150-7cb6e3f66a7b // indirect
+	github.com/portainer/portainer/api v0.0.0-20230626061215-c96e07687170 // indirect
 	github.com/portainer/portainer/pkg/featureflags v0.0.0-20230209201943-d73622ed9cd4 // indirect
 	github.com/rs/zerolog v1.29.0 // indirect
 	github.com/spf13/afero v1.9.5 // indirect

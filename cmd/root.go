@@ -25,6 +25,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/portainer/portainer/api"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -63,10 +64,12 @@ func init() {
 	// will be global for your application.
 
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.portainer-cli.yaml)")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "url", "", "The portainer endpoint")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "user", "", "Your portainer username")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "password", "", "Your portainer password")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
 // initConfig reads in config file and ENV variables if set.

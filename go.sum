@@ -176,6 +176,8 @@ github.com/pkg/sftp v1.13.1/go.mod h1:3HaPG6Dq1ILlpPZRO0HVMrsydcdLt6HRDccSgb87qR
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/portainer/portainer/api v0.0.0-20230622214150-7cb6e3f66a7b h1:m8y09If0vk5ZMdey/evgrEGaqo2SjzD889Mm9fEJ93Y=
 github.com/portainer/portainer/api v0.0.0-20230622214150-7cb6e3f66a7b/go.mod h1:tLc9Okv6xYy/F5hOQutVJaUJx0jtOqHy16tS7Nreq3Y=
+github.com/portainer/portainer/api v0.0.0-20230626061215-c96e07687170 h1:DEMWj+ArMhnM9cyQfeohddVw6Z02802fGKGEFZYo/M8=
+github.com/portainer/portainer/api v0.0.0-20230626061215-c96e07687170/go.mod h1:tLc9Okv6xYy/F5hOQutVJaUJx0jtOqHy16tS7Nreq3Y=
 github.com/portainer/portainer/pkg/featureflags v0.0.0-20230209201943-d73622ed9cd4 h1:gnXwaF0GnFUIlynRq994WFOtqOULTKZks4aSWuonlhA=
 github.com/portainer/portainer/pkg/featureflags v0.0.0-20230209201943-d73622ed9cd4/go.mod h1:T37rFZMg+PhRhT9n/z9cLSj9khJSdwHj3/Ac5PZQgKI=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
